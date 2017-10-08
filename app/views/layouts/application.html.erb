@@ -15,9 +15,9 @@
     <div class="site-wrapper-inner">
       <div class="cover-container">
         <%= render "shared/application_nav" %>
-        <%= login_helper %>
         <%= yield %>
-        <%= source_helper("application") %>
+        <%= render "shared/application_footer" %>
+        <%= source_helper %>
       </div>
     </div>
   </div>
