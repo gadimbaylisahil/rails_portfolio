@@ -21,6 +21,7 @@ gem 'bootstrap', '~> 4.0.0.beta'
 gem 'jquery-rails'
 gem 'petergate', '~> 1.8'
 gem 'font-awesome-rails'
+gem 'kaminari', '~> 1.0', '>= 1.0.1'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
