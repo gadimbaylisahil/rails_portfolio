@@ -1,7 +1,7 @@
 module DeviseWhitelist
   extend ActiveSupport::Concern
   included do 
-    before_filter :devise_params, if: :devise_controller?
+    before_action :devise_params, if: :devise_controller?
   end
 
   def devise_params
