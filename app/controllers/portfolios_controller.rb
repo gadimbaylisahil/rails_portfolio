@@ -6,6 +6,14 @@ class PortfoliosController < ApplicationController
 		@portfolio_items = Portfolio.by_position
 	end
 
+  def sort
+    params[:order].each do |key, value|
+      Portfolio.find(value[:id]).update!(position: value[:position])
+    end
+
+    render nothing: true
+  end
+
 	def create
 		@portfolio_item = Portfolio.new(portfolio_item_params)
 		respond_to do |format|
