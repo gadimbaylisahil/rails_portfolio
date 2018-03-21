@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="Rails rails_portfolio: production" uuid="04ea3635-d9ad-4f15-874f-123eaf4a2e45">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <first-sync>true</first-sync>
+      <user-name>rails_portfolio</user-name>
+    </data-source>
+    <data-source name="Rails rails_portfolio: development" uuid="605be491-d624-4612-8823-1a8d3239b000">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <first-sync>true</first-sync>
+    </data-source>
+    <data-source name="Rails rails_portfolio: test" uuid="9104a1f9-c5b5-4a38-a42e-72fd236535ed">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <first-sync>true</first-sync>
+    </data-source>
+  </component>
+</project>
